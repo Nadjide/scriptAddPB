@@ -39,7 +39,7 @@ def ajouter_donnees():
 
     annuler_donnees()
 
-    messagebox.showinfo("Succès", "Le problème a été ajouté avec succès.")
+    messagebox.showinfo("Succès", "Le problème a été ajouté avec succès !")
 
 def annuler_donnees():
     date_entry.set_date(dt.today())
